@@ -1,4 +1,3 @@
-
 const API = 'https://api.openweathermap.org/data/2.5/weather';
 const APIKEY = '9e98131a07c8047d839189e000f891e1';
 
@@ -18,7 +17,7 @@ async function getWeatherData(url) {
     .then(response => {
       return response.json()
     })
-    .then(async weatherData => {
+    .then(weatherData => {
       console.log(weatherData)
       this.postWeatherData(`${myAPI}/postWeatherData`, weatherData)
     }).then(() => {
