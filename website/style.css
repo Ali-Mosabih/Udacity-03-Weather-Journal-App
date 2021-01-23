@@ -5,19 +5,19 @@ body {
 
 #app {
     display: grid;
-    grid-template-rows: 70px 150px 200px 80px 150px;
+    grid-template-rows: 70px 150px 150px 80px 150px;
     /* grid-template-columns:  */
     height: 100vh;
-    /* background: #f23557; */
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lightning_in_Adelaide%2C_South_Australia%2C_2014.jpg/1200px-Lightning_in_Adelaide%2C_South_Australia%2C_2014.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: #f23557;
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lightning_in_Adelaide%2C_South_Australia%2C_2014.jpg/1200px-Lightning_in_Adelaide%2C_South_Australia%2C_2014.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
     color: #f0d43a;
     justify-content: center;
     /* grid-gap: 10px; */
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Oswald', sans-serif;
-
+    /* padding: 10px; */
 }
 
 .holder {
@@ -96,8 +96,8 @@ input {
 }
 
 button {
-    width: 200px;
-    height: 80px;
+    width: 150px;
+    height: 60px;
     background: #3b4a6b;
     color: #f0d43a;
     font-size: 26px;
