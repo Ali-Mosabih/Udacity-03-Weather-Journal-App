@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use(cors());
-app.use(express.static('03-Weather-Journal-App'));
+app.use(express.static('website'));
 
 const data = []
 let projectData = {}
@@ -31,14 +31,15 @@ app.get('/getWeatherData', (req, res) => {
     res.send(projectData)
 })
 
-app.get('/', (req, res, next) => {
-    res.send('Hello World From Server!')
-})
+
+// app.get('/', (req, res, next) => {
+//     res.send('Hello World From Server!')
+// })
 
 const port = 8000;
 
 const server = app.listen(port, listening);
 
 function listening() {
-    console.log('Hello Worlds From Server!')
+    console.log('Hello World From Server!')
 }
