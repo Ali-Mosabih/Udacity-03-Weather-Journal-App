@@ -24,14 +24,12 @@ app.post('/postWeatherData', (req, res) => {
     }
     // data.push(weatherData);
     projectData = weatherData;
-    // console.log(this.weatherData);
 })
 
 // GET Weather Data
 app.get('/getWeatherData', (req, res) => {
     res.send(projectData)
 })
-
 
 app.get('/', (req, res, next) => {
     res.send('Hello World From Server!')
