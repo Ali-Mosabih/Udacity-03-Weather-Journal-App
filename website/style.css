@@ -1,0 +1,155 @@
+body {
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-template-rows: 70px 150px 200px 80px 150px;
+    /* grid-template-columns:  */
+    height: 100vh;
+    /* background: #f23557; */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lightning_in_Adelaide%2C_South_Australia%2C_2014.jpg/1200px-Lightning_in_Adelaide%2C_South_Australia%2C_2014.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #f0d43a;
+    justify-content: center;
+    /* grid-gap: 10px; */
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.holder {
+    margin: auto;
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    
+    /* padding: 5px; */
+    /* border-radius: 10px; */
+    width: auto;
+}
+
+.entry {
+    margin-top: 1rem;
+    background: rgba(59, 74, 107, .4);
+    width: 50ch;
+    padding: 10px;
+    box-shadow: 0px 5px 10px #383835;
+}
+
+#entryHolder {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction:row; */
+    
+    margin-top: 5px;
+    height: auto;
+}
+
+
+/* #date{
+
+} */
+
+
+/* #temp{
+
+} */
+
+
+/* #content{
+
+} */
+
+.headline {
+    margin-top: 2rem;
+    /* height: 5px; */
+    /* margin-bottom: auto; */
+    /* border: 1px solid black; */
+}
+
+
+.title{
+    text-align: center;
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+label {
+    display: block;
+    font-size: 27px;
+}
+
+input {
+    display: block;
+    height: 60px;
+    width: 320px;
+    background: #22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    padding-left: 10px;
+    box-shadow: 0px 5px 10px #383835;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 0px 5px 10px #383835;
+    margin: auto;
+    cursor: pointer;
+    /* z-index: 1000; */
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    padding-left: 10px;
+    background: #22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    height: 60px;
+    width: 320px;
+    box-shadow: 0px 5px 10px #383835;
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
